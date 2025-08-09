@@ -2,6 +2,8 @@
 from Crypto.Hash import SHA256
 import json
 from time import time
+from uuid import uuid4
+
 
 class Blockchain:
     def __init__(self):
